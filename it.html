@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorpresa para ti</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow-y: scroll; /* Agregar barra de desplazamiento vertical */
+            animation: gradientBackground 1s ease infinite;
+        }
+        
+        h1 {
+            color: #fff;
+            margin-top: 50px;
+        }
+        
+        .message {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+        
+        iframe {
+            margin: 30px auto;
+            display: block;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Estilos para el mensaje y el botón */
+        .message-container {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: gradientBackground 20s ease infinite; /* Agregamos la animación al mensaje */
+        }
+        
+        .flower-button {
+            padding: 30px 40px;
+            font-size: 16px;
+            background-color: #ffccff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease; /* Transición suave de la transformación */
+            animation: gradientBackground 1s ease infinite;
+        }
+        
+        .flower-button:hover {
+            transform: scale(1.1); /* Escalado del botón al pasar el cursor */
+        }
+
+        
+        /* Animaciones */
+        @keyframes gradientBackground {
+            0% {
+                background: linear-gradient(to right, #66cc99, #4B6F44);
+            }
+            50% {
+                background: linear-gradient(to right, #4B6F44, #66cc99);
+            }
+            100% {
+                background: linear-gradient(to right, #66cc99, #4B6F44);
+            }
+        }
+
+        
+        /* Estilos responsivos */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+                text-align: center;
+                margin: 0 auto;
+            }
+            .message {
+                font-size: 16px;
+                position: relative;
+                text-align: center;
+                margin: auto;
+            }
+            .flower-button {
+                padding: 20px 30px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Hola!</h1>
+    <p class="message">He preparado algo especial para ti.</p>
+    
+    <!-- Coloca el reproductor de la canción -->
+    <video width="100%" height="auto" controls>
+        <source autoplay src="1.mp4" type="video/mp4">
+    </video>
+    
+    <!-- Espacio para el mensaje y el botón con el fondo animado -->
+    <div class="message-container">
+        <p>Me gustaría decirte algo...</p>
+        <p>Hola Itzel, hace tiempo te pedí dos cosas, las cuales eran tu color favorito y tu canción favorita, y bueno, era por esto. Tal vez pienses que es algo simple, pero aunque sea lo más simple, es para ti. 
+        Desde hace tiempo que veo tus historias, empezaste a llamarme la atención, pero no sabía cómo hablarte ya que soy tímido, así que solo reaccionaba. Después de varios días así, empecé a contestarte esas historias que subías con comentarios como "¡qué preciosa!", "¡qué guapa!", "¡qué diosa!", entre otros. Pero aún así, no me animaba a mandarte un hola por miedo de ser ignorado, como la primera vez que te hablé el 29 de diciembre del 2020. Aun así, no me rendía y te seguía reaccionando a tus historias porque en serio me llamaste tanto la atención que no podía evitarlo, ya que quería conocerte y ser más que solo un seguidor tuyo. Así que poco a poco me animaba más a mandarte mensajes que decían que me gustabas, y empezaste a contestarme. Hasta que un día me dijiste que había la posibilidad de que pudiéramos ser más que amigos, y así es como llegamos a ser novios. Tal vez por ahora sea a distancia, pero aún así, quiero hacerte la niña más feliz, porque te lo mereces.</p>
+        <p>¡TE QUIEROOOOO ITZEL ❤❤!</p>
+        <button class="flower-button" onclick="location.href='./Nueva/flores.html'">PRESIONAME</button>
+    </div>
+    
+    <p>Espero que te guste. Eres una persona especial para mí.</p>
+</body>
+</html>
+
+
+
